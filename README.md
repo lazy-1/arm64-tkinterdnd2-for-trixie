@@ -42,6 +42,12 @@ That's it — no other code changes.
 
 ## Happy Dragging and Dropping..
 
+# Fixes the common error
+Traceback (most recent call last):
+  File "/home/pi/venv/lib/python3.13/site-packages/tkinterdnd2/TkinterDnD.py", line 69, in _require
+    TkdndVersion = tkroot.tk.call('package', 'require', 'tkdnd')
+_tkinter.TclError: couldn't load file "/home/pi/.venv/lib/python3.13/site-packages/tkinterdnd2/tkdnd/linux-arm64/libtkdnd2.9.3.so": /home/pi/.venv/lib/python3.13/site-packages/tkinterdnd2/tkdnd/linux-arm64/libtkdnd2.9.3.so: wrong ELF class: ELFCLASS64
+
 
 
 
