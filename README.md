@@ -35,10 +35,10 @@ That's it — no other code changes.
 1. Copy the entire `modified_tkinterdnd2/` folder into your project's module directory. Or create a modules directory and put it in your sys.path:
    ```python
    import sys
-   sys.path.insert(0, os.path.expanduser("~/your/modules/path"))```
+   sys.path.insert(0, os.path.expanduser("~/your/modules/path"))
 2. In your script, :
    ```python
-   from modified_tkinterdnd2 import TkinterDnD, DND_ALL```
+   from modified_tkinterdnd2 import TkinterDnD, DND_ALL
 
 ## Happy Dragging and Dropping..
 
