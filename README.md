@@ -45,11 +45,12 @@ That's it — no other code changes.
 3. Use normal import: `from tkinterdnd2 import TkinterDnD, DND_ALL, ...`
 
 ### Method 2: Use the whole folder as a local module (cleaner, recommended)
-1. Copy the entire `modified_tkinterdnd2/` folder into your project's module directory (e.g. `~/bin/mypym/`)
-2. In your script, add to sys.path **before** importing:
-   ```python
+1. Copy the entire `modified_tkinterdnd2/` folder into your project's module directory. Or create a modules directory and put it in your sys.path:
+   ```
    import sys
-   sys.path.insert(0, os.path.expanduser("~/bin/mypym"))
+   sys.path.insert(0, os.path.expanduser("/your/modules/path"))
+2. In your script, :
+   ```python
    from modified_tkinterdnd2 import TkinterDnD, DND_ALL
 
 
