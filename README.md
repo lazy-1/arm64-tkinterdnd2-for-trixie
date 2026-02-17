@@ -20,7 +20,7 @@ That's it — no other code changes.
 
 ## It ain't perfect
 - in order to get this to work as it doesn't out of the box, I had to bypass the core drop signal as it kept erroring over  e.serial = getint(nsign), _tkinter.TclError: expected integer but got "%#"
-- so if your having issues, check to see that the test script test_tk_dnd.py works and if it does then you have a place to start.
+- so if you're having issues, check to see that the test script test_tk_dnd.py works and if it does then you have a place to start.
 
 ## How to use it (recommended: method 2)
 
@@ -35,10 +35,10 @@ That's it — no other code changes.
 1. Copy the entire `modified_tkinterdnd2/` folder into your project's module directory. Or create a modules directory and put it in your sys.path:
    ```python
    import sys
-   sys.path.insert(0, os.path.expanduser("~/your/modules/path"))
+   sys.path.insert(0, os.path.expanduser("~/your/modules/path"))```
 2. In your script, :
    ```python
-   from modified_tkinterdnd2 import TkinterDnD, DND_ALL
+   from modified_tkinterdnd2 import TkinterDnD, DND_ALL```
 
 ## Happy Dragging and Dropping..
 
